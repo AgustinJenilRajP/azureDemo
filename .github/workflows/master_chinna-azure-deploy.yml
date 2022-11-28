@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'chinna-azure-deploy'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_50490FC34D844D6A818B8ADDCF310AAB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4659C84155454E5A9D86373214933D81 }}
           package: '*.jar'
